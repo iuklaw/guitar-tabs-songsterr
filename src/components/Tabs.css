@@ -1,0 +1,61 @@
+.loader {
+    display: block;
+    margin: auto;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 10vh;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin: 7vh 0
+}
+
+.no-results {
+    font-size: 2.5rem;
+    margin: 7vh 0
+}
+
+.tab-item {
+    margin-top: 3vh;
+    font-size: 1.5rem;
+}
+
+.tab-item-types {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+.tab-item-icon {
+    margin: 1vh 1vw;
+    font-size: 1rem;
+}
+
+.tab-item-index {
+    margin-bottom: 1vh;
+}
+
+.artist {
+    font-size: 1rem;
+}
+
+hr {
+    width: 20%;
+    border: none;
+    background: lightgray;
+    height: 3px;
+}

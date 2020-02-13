@@ -1,0 +1,8 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  margin-right: 6vw;
+  margin-bottom: 5vh;
+  cursor: pointer;
+}
