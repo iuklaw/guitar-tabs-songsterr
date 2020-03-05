@@ -1,4 +1,4 @@
-Application built with **React-create-app**, **Typescript**, **Redux** using songsterr API
+Application built with **Create-react-app**, **Typescript**, **Redux** using songsterr API
 
 `Download`  
 `npm/yarn install`  
