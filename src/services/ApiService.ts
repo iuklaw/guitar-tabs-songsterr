@@ -22,13 +22,13 @@ export type Tab = Readonly<{
 class ApiService {
 
     private async searchByArtist(query: Query) {
-        const data = await fetch(`http://www.songsterr.com/a/ra/songs/byartists.json?artists="${encodeURIComponent(query)}"`)
+        const data = await fetch(`https://www.songsterr.com/a/ra/songs/byartists.json?artists="${encodeURIComponent(query)}"`)
         const artistTabs: ReadonlyArray<Tab> = await data.json()
         return artistTabs
     }
 
     private async searchBySong(query: Query) {
-        const data = await fetch(`http://www.songsterr.com/a/ra/songs.json?pattern=${query}`)
+        const data = await fetch(`https://www.songsterr.com/a/ra/songs.json?pattern=${query}`)
         const songTabs: ReadonlyArray<Tab> = await data.json()
         return songTabs
     }
